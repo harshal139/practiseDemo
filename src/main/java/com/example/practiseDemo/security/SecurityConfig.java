@@ -15,4 +15,7 @@ public class SecurityConfig {
     public String getHello(){
         return "Hello  World";
     }
+    public int Add(int a,int b){
+        return a+b;
+    }
 }
