@@ -11,4 +11,8 @@ public class SecurityConfig {
     public PasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder();
     }
+
+    public String getHello(){
+        return "Hello  World";
+    }
 }
